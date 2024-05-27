@@ -6,7 +6,7 @@ export default async function Home() {
   const response = await fetchPokemonList();
 
   return (
-    <main className='animate-fadeIn'>
+    <main className='animate-fadeIn mt-10'>
       <div className='container mx-auto p-4'>
         <h1 className='text-4xl font-bold mb-6 text-center text-indigo'>
           Moxie Pokedex
